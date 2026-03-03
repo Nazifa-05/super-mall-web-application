@@ -34,14 +34,14 @@ const Login = () => {
       // Save token in localStorage
       localStorage.setItem("token", data.token);
 
-      alert("Login Successful 🎉");
+      alert("Login Successful! ");
 
       // Redirect to Dashboard
       navigate("/dashboard");
 
     } catch (error) {
       alert(
-        error.response?.data?.message || "Login Failed ❌"
+        error.response?.data?.message || "Login Failed "
       );
     } finally {
       setLoading(false);
@@ -54,7 +54,7 @@ const Login = () => {
 
         {/* HEADER */}
         <div className="text-center mb-8">
-          <div className="w-14 h-14 mx-auto rounded-2xl bg-[#F25278] text-white flex items-center justify-center text-2xl font-extrabold shadow">
+          <div className="w-14 h-14 mx-auto rounded-2xl bg-[#b91c1c] text-white flex items-center justify-center text-2xl font-extrabold shadow">
             🏬
           </div>
           <h1 className="text-3xl font-extrabold text-gray-800 mt-4">
@@ -101,7 +101,7 @@ const Login = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-[#F25278] text-white py-3 rounded-lg font-semibold hover:bg-[#e44468] transition shadow-lg"
+            className="w-full bg-[#b91c1c] text-white py-3 rounded-lg font-semibold hover:bg-[#e44468] transition shadow-lg"
           >
             {loading ? "Logging in..." : "Login"}
           </button>
@@ -112,7 +112,7 @@ const Login = () => {
           Don’t have an account?{" "}
           <Link
             to="/register"
-            className="text-[#F25278] font-semibold hover:underline"
+            className="text-[#b91c1c] font-semibold hover:underline"
           >
             Create Account
           </Link>

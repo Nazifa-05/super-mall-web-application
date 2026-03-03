@@ -9,7 +9,7 @@ const Footer = () => {
         {/* BRAND */}
         <div>
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-10 h-10 rounded-xl bg-[#F25278] text-white flex items-center justify-center font-extrabold">
+            <div className="w-10 h-10 rounded-xl bg-[#b91c1c] text-white flex items-center justify-center font-extrabold">
               SM
             </div>
             <h2 className="text-xl font-extrabold text-gray-800">Super Mall</h2>

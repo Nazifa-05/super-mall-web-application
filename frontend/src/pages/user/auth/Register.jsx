@@ -92,7 +92,7 @@ const Register = () => {
 
           <button
             type="submit"
-            className="w-full bg-[#F25278] text-white py-3 rounded-lg"
+            className="w-full bg-[#b91c1c] text-white py-3 rounded-lg"
           >
             Create Account
           </button>
@@ -100,7 +100,7 @@ const Register = () => {
 
         <p className="text-center mt-4">
           Already have account?{" "}
-          <Link to="/login" className="text-[#F25278]">
+          <Link to="/login" className="text-[#b91c1c]">
             Login
           </Link>
         </p>
